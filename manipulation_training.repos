@@ -1,0 +1,9 @@
+repositories:
+  ur5e_cell:
+    type: git
+    url: https://github.com/ipa-rar/ur5e_cell.git
+    version: start-of-training
+  launch_ros_extras:
+    type: git
+    url: https://github.com/ipa-cmh/launch_ros_extras.git
+    version: master
