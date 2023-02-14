@@ -36,5 +36,5 @@
         "source=${localWorkspaceFolder}/../install,target=/home/ws/install,type=bind",
         "source=${localWorkspaceFolder}/../log,target=/home/ws/log,type=bind"
     ],
-    "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R xxx /home/ws/ && sudo apt install python3-colcon-clean ros-humble-ros2controlcli"
+    "postCreateCommand": "sudo apt update && sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R xxx /home/ws/ && sudo apt install python3-colcon-clean ros-humble-ros2controlcli"
 }
