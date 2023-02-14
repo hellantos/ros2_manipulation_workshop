@@ -1,11 +1,11 @@
 {
     "name": "ROS2 Development Container",
     "privileged": true,
-    "remoteUser": "christoph",
+    "remoteUser": "xxx",
     "build": {
         "dockerfile": "DOCKERFILE",
         "args": {
-            "USERNAME": "christoph"
+            "USERNAME": "xxx"
         }
     },
     "workspaceFolder": "/home/ws",
@@ -36,5 +36,5 @@
         "source=${localWorkspaceFolder}/../install,target=/home/ws/install,type=bind",
         "source=${localWorkspaceFolder}/../log,target=/home/ws/log,type=bind"
     ],
-    "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R christoph /home/ws/"
+    "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R xxx /home/ws/"
 }
