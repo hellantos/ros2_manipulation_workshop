@@ -7,3 +7,11 @@ repositories:
     type: git
     url: https://github.com/ipa-cmh/launch_ros_extras.git
     version: master
+  aruco_ros:
+    type: git
+    url: https://github.com/pal-robotics/aruco_ros.git
+    version: humbel-devel
+  rosparam_shortcuts:
+    type: git
+    url: https://github.com/PickNikRobotics/rosparam_shortcuts.git
+    version: ros2
